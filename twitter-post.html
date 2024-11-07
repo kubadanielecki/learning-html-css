@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {
+        font-family: Roboto;
+        font-size: 14px;
+        color: black;
+      }
+
+      .post-container {
+        display: flex;
+        flex-direction: row;
+        width: 380px;
+      }
+
+      .profile-picture {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+        margin-right: 10px;
+      }
+
+      .content-container { 
+        flex: 1;
+      }
+
+      .user-name-container {
+        display: flex;-
+        flex-direction: row;
+        margin-bottom: 4px;
+      }
+
+      .user-name {
+        font-weight: bold;
+        margin-right: 5px;
+      }
+
+      .tag-name {
+        color: rgb(168, 168, 168);
+      }
+
+      .video-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: solid;
+        border-width: 1px;
+        border-color: rgb(168, 168, 168);
+        border-radius: 12px;
+        overflow: hidden;
+      }
+
+      .thumbnail {
+        background-color: rgb(168, 168, 168);
+        height: 100px;
+        width: 100px;;
+      }
+
+      .video-info-container {
+        flex: 1;
+        margin-left: 5px;
+      }
+
+      .link {
+        color: rgb(168, 168, 168);
+        margin-bottom: 4px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="post-container">
+      <div class="image-container">
+        <img class="profile-picture" src="other-images/MainAfter.webp">
+      </div>
+      <div class="content-container">
+        <div class="user-name-container">
+          <div class="user-name">supersimple.dev</div>
+          <div class="tag-name">@SuperSimpleDev</div>
+        </div>
+        <div class="tweet">What is backend web development? A complete overview. New video is up!</div>
+        <div class="video-container">
+          <div class="thumbnail"></div>
+          <div class="video-info-container">
+            <div class="link">youtube.com</div>
+            <div class="title">Backend web development - a complete overview (2021)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        height: 2000px;
+        font-family: Arial;
+      }
+
+      .sidebar {
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+      }
+
+      .friends {
+        background-color: #212529;
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+        padding-top: 15px;
+        padding-right: 15px;
+      }
+
+      .profile-1 {
+        height: 80px;
+        width: 80px;
+        object-fit: cover;
+        border-radius: 50px;
+        margin-bottom: 10px;
+      }
+
+      .profile-2 {
+        height: 80px;
+        width: 80px;
+        border-radius: 50px;
+        margin-bottom: 10px;
+        object-fit: cover;
+      }
+
+      .profile-3 {
+        height: 80px;
+        width: 80px;
+        border-radius: 50px;
+        object-fit: cover;
+      }
+
+      .channels {
+        background-color: #343a40;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        width: 150px;
+      }
+
+      .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 15px;
+      }
+
+      .info {
+        color: #f8f9fa;
+        font-weight: bold;
+      }
+
+      .plus {
+        color: #c0c0c0;
+        font-weight: bold;
+      }
+
+      .channel-1 {
+        margin-bottom: 15px;
+        color: #c0c0c0;
+      }
+
+      .channel-2 {
+        margin-bottom: 15px;
+        color: #c0c0c0;
+      }
+
+      .channel-3 {
+        color: #c0c0c0;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="friends">
+        <img class="profile-1" src="other-images//MainAfter.webp">
+        <img class="profile-2" src="other-images/red-panda-full-body_4x3.avif">
+        <img class="profile-3" src="other-images/dog2.jpg">
+      </div>
+    
+      <div class="channels">
+        <div class="header">
+          <div class="info">
+           INFO
+          </div>
+          <div class="plus">
+            +
+          </div>
+        </div>
+        <div class="channel-1">
+          # new-videos
+        </div>
+        <div class="channel-2">
+          # updates
+        </div>
+        <div class="channel-3">
+          # faq
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
